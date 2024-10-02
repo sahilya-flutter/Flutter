@@ -9,10 +9,31 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+        appBar: AppBar(
+          title: const Text(
+            "Space Parameters",
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),
+          ),
+          centerTitle: true,
+          backgroundColor: Colors.teal,
+        ),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Container(
+              height: 200,
+              width: 200,
+              color: Colors.indigo,
+            ),
+            Container(
+              height: 200,
+              width: 200,
+              color: Colors.indigo,
+            ),
+          ],
         ),
       ),
     );
