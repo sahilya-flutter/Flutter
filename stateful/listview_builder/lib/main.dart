@@ -9,11 +9,28 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+        appBar: AppBar(
+          title: const Text(
+            "Listview builder Demo",
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),
+          ),
+          centerTitle: true,
+          backgroundColor: Colors.lime,
         ),
+        body: ListView.builder(
+            itemCount: 30,
+            physics: const BouncingScrollPhysics(),
+            itemBuilder: (BuildContext context, int index) {
+              return Text(
+                "Index: $index",
+                style: const TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.w500,
+                ),
+              );
+            }),
       ),
     );
   }
