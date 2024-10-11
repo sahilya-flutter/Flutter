@@ -21,7 +21,7 @@ class _MyWidgetState extends State<MyWidget> {
           centerTitle: true,
         ),
         body: Padding(
-          padding: const EdgeInsets.all(12.0),
+          padding: const EdgeInsets.all(0),
           child: SingleChildScrollView(
             child: Column(
               children: [
@@ -32,7 +32,7 @@ class _MyWidgetState extends State<MyWidget> {
                       color: Colors.grey.shade200,
                       borderRadius: BorderRadius.circular(10)),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    // mainAxisAlignment: MainAxisAlignment.spaceA,
                     children: [
                       Container(
                         width: 100,
@@ -56,7 +56,7 @@ class _MyWidgetState extends State<MyWidget> {
                         child: Padding(
                           padding: const EdgeInsets.all(4.0),
                           child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            // crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               const Text(
                                 "Nike Shoes",
@@ -110,7 +110,7 @@ class _MyWidgetState extends State<MyWidget> {
                       color: Colors.grey.shade200,
                       borderRadius: BorderRadius.circular(10)),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    // mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Container(
                         width: 100,
@@ -135,7 +135,7 @@ class _MyWidgetState extends State<MyWidget> {
                         // text column
 
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
+                          // crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             const Text(
                               "Nike Shoes",
