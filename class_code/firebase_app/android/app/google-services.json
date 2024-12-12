@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "855880487716",
+    "project_id": "playername-cb793",
+    "storage_bucket": "playername-cb793.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855880487716:android:3ba9712c50b2e54a8719b1",
+        "android_client_info": {
+          "package_name": "com.example.player_names_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA392hoUgrCuvSPzKCg48RtdT5KEMN-kgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
